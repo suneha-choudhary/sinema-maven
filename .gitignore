@@ -1,7 +1,29 @@
+# Ignore Maven build directory
 /target/
+
+# Ignore class files
 *.class
+
+# Ignore IntelliJ IDEA project files
 .idea/
 *.iml
+
+# Eclipse project files (just in case)
 .classpath
 .project
 .settings/
+
+# VS Code settings
+.vscode/
+
+# Node or frontend-generated files (if using npm/yarn)
+node_modules/
+dist/
+build/
+
+# Ignore auto-generated CSS and media files
+sinema_files/
+
+# System-specific files
+.DS_Store
+Thumbs.db
